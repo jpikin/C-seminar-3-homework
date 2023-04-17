@@ -25,17 +25,28 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("Введите первую координату первой точки");
-int X1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите вторую координату первой точки");
-int Y1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третью координату первой точки");
-int Z1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите первую координату второй точки");
-int X2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите вторую координату второй точки");
-int Y2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третью координату второй точки");
-int Z2 = Convert.ToInt32(Console.ReadLine());
-double distance = Math.Sqrt(Math.Pow((X2-X1), 2) + Math.Pow((Y2-Y1), 2) + Math.Pow((Z2-Z1), 2));
-Console.WriteLine(distance);
+// Console.WriteLine("Введите первую координату первой точки");
+// int X1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите вторую координату первой точки");
+// int Y1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите третью координату первой точки");
+// int Z1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первую координату второй точки");
+// int X2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите вторую координату второй точки");
+// int Y2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите третью координату второй точки");
+// int Z2 = Convert.ToInt32(Console.ReadLine());
+// double distance = Math.Sqrt(Math.Pow((X2-X1), 2) + Math.Pow((Y2-Y1), 2) + Math.Pow((Z2-Z1), 2));
+// Console.WriteLine(distance);
+
+
+// Задача 23
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine();
+// for (int i = 1; i <= num; i++) Console.WriteLine(Math.Pow(i, 3));
